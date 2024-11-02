@@ -7,7 +7,83 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.nav-link{
+  margin-left: 30px;
+}
+.nav-link:hover{
+  color: rgb(39, 113, 230);
+
+}
+.footer a{
+  text-decoration: none;
+  color: #666666;
+  font-weight: 500;
+  line-height: 2;
+}
+.footer a:hover,i:hover{
+  
+  color: #387ed1;
+  font-weight: 500;
+}
+p{
+  color: #424242;
+  line-height: 1.8;
+  font-weight: 400;
+}
+a{
+  text-decoration: none;
+  font-weight: 600;
+
+}
+h1{
+  color: #424242;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.heading{
+  color: #424242;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.para{
+  color: #424242;
+  line-height: 1.8;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) and (max-width: 1317px) {
+  /* CSS rules here */
+  .footer-icon{
+    margin-top: 10px !important;
+  }
+}
+.support{
+  background-color: #387ed1;
+  color: #fff !important;
+  line-height: 24px;
+  font-weight: 400;
+}
+.support a{
+  text-decoration: underline;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+
+}
+.support input{
+  width: 100%;
+  padding: 20px ;
+  height: 3.7rem;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+.support li{
+  text-decoration: underline;
+}
+

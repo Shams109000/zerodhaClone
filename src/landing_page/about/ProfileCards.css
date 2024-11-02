@@ -1,0 +1,21 @@
+.card-img-top {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  .card {
+    border: none !important;
+    box-shadow: none; 
+    margin-bottom:"100px";
+    /* Optional: to remove any shadow effect */
+  }
+  .bio{
+    line-height: 1.8;
+    color: #424242;
+    text-align: left !important;
+  }
